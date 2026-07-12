@@ -1,5 +1,17 @@
 # 发布材料检查清单
 
+## 仓库与根目录
+
+- GitHub：`https://github.com/bronlemesja32-zzz/deeppcb-yolov5-dip-project`
+- [x] `report/`
+- [x] `scripts/`
+- [x] `configs/`
+- [x] `logs/`
+- [x] `outputs/`
+- [x] `README.md`
+- [x] `RELEASE_CHECKLIST.md`
+- [x] `.gitignore`
+
 ## 已包含的文件
 
 ### 报告
@@ -78,4 +90,4 @@
 - [x] 是否包含最终 PDF：是
 - [x] 是否包含关键日志摘要：是
 - [x] 是否已创建 GitHub 仓库：是
-- [x] 是否已上传到 GitHub：是
+- [x] 是否已上传到 GitHub：用户网页端上传，待确认最终同步
