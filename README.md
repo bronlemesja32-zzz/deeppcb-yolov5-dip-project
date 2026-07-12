@@ -1,6 +1,6 @@
 # 基于 YOLOv5s 的 PCB 表面缺陷检测与图像处理辅助分析
 
-本项目是数字图像处理课程大作业，围绕 DeepPCB 数据集完成 PCB 表面缺陷检测、传统图像处理候选区域生成及结果分析。
+本项目是《数字图像处理》课程大作业，围绕 DeepPCB 数据集完成 PCB 表面缺陷检测、传统图像处理候选区域生成及结果分析。
 
 ## 方法
 
@@ -38,7 +38,7 @@ github_release/
 
 仓库中的脚本用于数据检查与转换、转换结果自检、标注可视化、传统图像处理基线和 PAD 标定。YOLOv5s 训练与测试需另行准备 [YOLOv5 官方仓库](https://github.com/ultralytics/yolov5) 和完整 DeepPCB 数据，并按本机数据位置更新 `configs/deeppcb.yaml` 中的 `path`。
 
-报告可在 `report/` 目录中使用 XeLaTeX 和 BibTeX 编译。
+报告可在 `report/` 目录中使用 XeLaTeX 和 BibTeX 编译。  
 
 ## 课程说明
 
