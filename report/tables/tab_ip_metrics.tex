@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{传统图像处理 baseline 在官方 test 上的 box-level 指标（class-agnostic 贪心匹配；候选框共 3318 个，平均 6.636 个/图，4 张图无候选）}
+\label{tab:ip_metrics}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccccc}
+\toprule
+IoU 阈值 & TP & FP & FN & P & R & F1 \\
+\midrule
+0.33 & 2124 & 1194 & 1016 & 0.640 & 0.676 & 0.658 \\
+0.50 & 2092 & 1226 & 1048 & 0.631 & 0.666 & 0.648 \\
+\bottomrule
+\end{tabular}
+\end{table}

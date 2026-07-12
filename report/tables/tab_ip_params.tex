@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{传统图像处理流水线参数（除 PAD 在 val 上标定外，其余为经验固定值）}
+\label{tab:ip_params}
+\small
+\begin{tabular}{ll}
+\toprule
+参数 & 取值 \\
+\midrule
+中值滤波核 & $5\times 5$ \\
+开运算核（椭圆） & $3\times 3$ \\
+闭运算核（椭圆） & $5\times 5$ \\
+连通域最小面积 & 50 px$^2$ \\
+候选最小宽/高 & 8 px \\
+候选最大宽/高 & 250 px \\
+候选框外扩 PAD & 10 px（val 标定冻结） \\
+评价 IoU 阈值 & 0.33 / 0.50 \\
+候选得分 score & 连通域内平均差分强度$/255$ \\
+\bottomrule
+\end{tabular}
+\end{table}

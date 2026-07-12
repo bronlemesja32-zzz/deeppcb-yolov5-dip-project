@@ -1,0 +1,3 @@
+﻿iou_threshold,TP,FP,FN,precision,recall,f1,total_proposals,total_gt,avg_proposals_per_image,images,images_without_proposal
+0.33,2124,1194,1016,0.6401,0.6764,0.6578,3318,3140,6.636,500,4
+0.5,2092,1226,1048,0.6305,0.6662,0.6479,3318,3140,6.636,500,4

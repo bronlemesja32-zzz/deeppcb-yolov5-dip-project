@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{类别映射与各划分实例数（源标注 type $1\!-\!6$ 映射为 YOLO class\_id $=$ type $-1$；copper 即 spurious copper，余铜）}
+\label{tab:classmap}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{clcccc}
+\toprule
+id & 类别 & train & val & test & 合计 \\
+\midrule
+0 & open（断路） & 1148 & 135 & 659 & 1942 \\
+1 & short（短路） & 931 & 97 & 478 & 1506 \\
+2 & mousebite（鼠咬） & 1230 & 149 & 586 & 1965 \\
+3 & spur（毛刺） & 1049 & 93 & 483 & 1625 \\
+4 & copper（余铜） & 909 & 101 & 464 & 1474 \\
+5 & pin\_hole（针孔） & 932 & 99 & 470 & 1501 \\
+\midrule
+ & 合计 & 6199 & 674 & 3140 & 10013 \\
+\bottomrule
+\end{tabular}
+\end{table}
